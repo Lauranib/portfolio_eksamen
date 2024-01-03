@@ -6,6 +6,8 @@ header {
   box-shadow: 0 2px 0 0 #2d2f2a;
   display: flex;
   justify-content: space-between;
+  background-color: #e1ded5;
+
   /* align-items: baseline; */
 }
 
