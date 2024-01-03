@@ -1,78 +1,15 @@
-/* // header */
-
-#header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 0 0 #e1ded5;
-  z-index: 3;
-}
-
-/* // hero */
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
-  box-sizing: border-box;
-  color: #e1ded5;
-  background: url("billeder/hero_test2.jpg") center center no-repeat;
-  background-size: cover;
-}
-
-.hero_header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.hero_title {
-  max-width: 16em;
-  margin: 0;
-  font-size: 12vh;
-  font-weight: bold;
-  line-height: 0.9;
-}
-
-@media only screen and (min-width: 32em) {
-  .hero_title {
-    font-size: 16vh;
-    text-align: center;
-  }
-}
-
-.hero_footer {
-  display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
-  align-items: center;
-}
-
-.button {
-  padding: 0.5em 0.67em;
-  padding-left: 60px;
-  padding-right: 60px;
-  color: #e1ded5;
-  text-decoration: none;
-  border: 0.1em solid #e1ded5;
-  border-radius: 25px;
-}
-
-/* // article */
-
+/* --------------------------tema 2-------------------------- */
 header {
   position: sticky;
   top: 0;
   padding: 1rem 2rem;
+  box-shadow: 0 2px 0 0 #2d2f2a;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  /* box-shadow: 0 2px 0 0 rgb(0 0 0); */
+  /* align-items: baseline; */
 }
 
-#logo img {
+.logo img {
   width: 10vh;
   height: 10vh;
 }
@@ -83,21 +20,23 @@ header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-bottom: 0.4rem;
-  gap: 30px;
+  padding-bottom: 0.3rem;
+  gap: 100px;
   overflow-x: auto;
 }
 
-/* --------------------------tema 2-------------------------- */
-
 .menu a {
   display: block;
-  color: #e1ded5;
+  color: #2d2f2a;
   text-decoration: none;
   font-weight: 500;
 }
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: #e1ded5;
 }
 
 .menu a:hover {
@@ -114,7 +53,6 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 100px;
 }
 
 .menu li {

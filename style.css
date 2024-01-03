@@ -8,6 +8,8 @@
 body {
   background-color: #e1ded5;
   margin: 0rem;
+  font-family: "PT Sans Caption", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-size: 2.8vh;
 }
 
 img {

@@ -40,8 +40,33 @@
   border-radius: 25px;
 }
 
+.about_button {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about_button2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #e1ded5;
+  text-decoration: none;
+  border: 0.1em solid #e1ded5;
+  border-radius: 25px;
+}
+
 .index_tekst {
   background-color: #2d2f2a;
+  color: #e1ded5;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: 10px;
+  padding: 30px;
 }
 
 /* ---------------------------mobil--------------------------- */
@@ -67,7 +92,16 @@
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 50vh;
   }
+}
+
+.index_tekst {
+  height: 65vh;
+}
+
+.grid_1-1 img {
+  height: 65vh;
 }
 
 /* --------------------------computer-------------------------- */
