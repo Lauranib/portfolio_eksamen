@@ -1,24 +1,3 @@
-/* ---------------------------reset--------------------------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #dad0bf;
-  margin: 0rem;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  align-self: stretch;
-}
-/* ---------------------------reset--------------------------- */
-
 /* // general */
 
 body {
@@ -42,16 +21,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80vh;
+  height: 100vh;
   padding: 1em;
   box-sizing: border-box;
-  color: white;
+  color: #e1ded5;
   background: url("billeder/hero_test2.jpg") center center no-repeat;
   background-size: cover;
 }
 
 .hero-header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .hero-title {
@@ -72,13 +54,18 @@ body {
 .hero-footer {
   display: flex;
   margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
   padding: 0.5em 0.67em;
-  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #e1ded5;
   text-decoration: none;
-  border: 0.1em solid white;
+  border: 0.1em solid #e1ded5;
+  border-radius: 25px;
 }
 
 .button-primary {
@@ -170,6 +157,7 @@ nav {
 .burger {
   display: none;
 }
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
@@ -194,7 +182,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #dad0bf;
+    background-color: #2d2f2a;
     position: absolute;
     top: 82px;
     left: 0;
