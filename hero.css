@@ -2,7 +2,7 @@
 
 body {
   font-family: "PT Sans Caption", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-  font-size: 3vh;
+  font-size: 2.8vh;
 }
 
 /* // header */
@@ -22,21 +22,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  padding: 1em;
   box-sizing: border-box;
   color: #e1ded5;
   background: url("billeder/hero_test2.jpg") center center no-repeat;
   background-size: cover;
 }
 
-.hero-header {
+.hero_header {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.hero-title {
+.hero_title {
   max-width: 16em;
   margin: 0;
   font-size: 12vh;
@@ -45,13 +44,13 @@ body {
 }
 
 @media only screen and (min-width: 32em) {
-  .hero-title {
+  .hero_title {
     font-size: 16vh;
     text-align: center;
   }
 }
 
-.hero-footer {
+.hero_footer {
   display: flex;
   margin-bottom: 1em;
   justify-content: center;
@@ -66,11 +65,6 @@ body {
   text-decoration: none;
   border: 0.1em solid #e1ded5;
   border-radius: 25px;
-}
-
-.button-primary {
-  color: black;
-  background-color: white;
 }
 
 /* // article */
@@ -106,6 +100,8 @@ header nav ul {
   gap: 30px;
   overflow-x: auto;
 }
+
+/* --------------------------tema 2-------------------------- */
 
 .menu a {
   display: block;
@@ -199,3 +195,4 @@ nav {
     font-size: 24px;
   }
 }
+/* --------------------------tema 2-------------------------- */

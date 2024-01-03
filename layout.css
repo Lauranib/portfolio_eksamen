@@ -1,4 +1,6 @@
 /* ---------------------------mobil--------------------------- */
+
+/* FORSIDE */
 .index_box {
   display: grid;
   margin-top: 80px;
@@ -24,7 +26,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .index_button {
@@ -37,14 +39,20 @@
   border: 0.1em solid #2d2f2a;
   border-radius: 25px;
 }
+
+.index_tekst {
+  background-color: #2d2f2a;
+}
+
 /* ---------------------------mobil--------------------------- */
 
 /* --------------------------computer-------------------------- */
 
+/* FORSIDE */
 @media (min-width: 800px) {
   .index_box {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .grid_1-1-1 {
@@ -55,5 +63,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin: 100px;
   }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
 /* --------------------------computer-------------------------- */
