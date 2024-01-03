@@ -1,0 +1,20 @@
+/* ---------------------------reset--------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dad0bf;
+  margin: 0rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  align-self: stretch;
+}
+/* ---------------------------reset--------------------------- */
