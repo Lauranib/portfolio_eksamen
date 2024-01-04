@@ -65,7 +65,7 @@
 header {
   position: sticky;
   top: 0;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -73,8 +73,8 @@ header {
 }
 
 #logo img {
-  width: 10vh;
-  height: 10vh;
+  width: 8vh;
+  height: 8vh;
 }
 
 header nav ul {

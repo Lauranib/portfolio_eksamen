@@ -2,18 +2,18 @@
 header {
   position: sticky;
   top: 0;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   box-shadow: 0 2px 0 0 #2d2f2a;
   display: flex;
   justify-content: space-between;
-  background-color: #e1ded5;
+  background-color: #2d2f2a;
 
   /* align-items: baseline; */
 }
 
 .logo img {
-  width: 10vh;
-  height: 10vh;
+  width: 8vh;
+  height: 8vh;
 }
 
 header nav ul {
@@ -29,7 +29,7 @@ header nav ul {
 
 .menu a {
   display: block;
-  color: #2d2f2a;
+  color: #e1ded5;
   text-decoration: none;
   font-weight: 500;
 }
