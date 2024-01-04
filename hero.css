@@ -33,16 +33,16 @@
   margin: 0;
   font-size: 12vh;
   font-weight: bold;
-  line-height: 0.9;
-  font-family: "Merriweather";
+  line-height: 0.8;
+  font-family: "Yesteryear";
   font-weight: 400;
   text-align: center;
-  letter-spacing: -5px;
+  letter-spacing: 20px;
 }
 
 @media only screen and (min-width: 600px) {
   .hero_title {
-    font-size: 19vh;
+    font-size: 22vh;
     text-align: center;
   }
 }

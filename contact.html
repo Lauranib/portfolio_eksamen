@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=IBM+Plex+Mono&family=Merriweather:ital,wght@0,700;1,400;1,700&family=Yesteryear&display=swap"
+        rel="stylesheet">
     <title>Kontakt</title>
 </head>
 
@@ -33,7 +35,35 @@
     </header>
 
     <main>
+        <div class="grid_1-1_contact">
+            <div class="img_contact">
+                <img src="billeder/box1-2.jpg" alt="photo">
+            </div>
+            <div class="container">
+                <form action="action_page.php">
 
+                    <label for="fname">Fornavn</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Efternavn</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Land</label>
+                    <select id="country" name="country">
+                        <option value="denmark">Danmark</option>
+                        <option value="eu">EU</option>
+                        <option value="other">Andet</option>
+                    </select>
+
+                    <label for="subject">Emne</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>

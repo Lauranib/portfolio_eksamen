@@ -41,6 +41,13 @@ a {
   letter-spacing: -3px;
 }
 
+.index_box {
+  font-family: "Exo 2";
+  font-weight: 800;
+}
+
+/* --------------------------computer------------------------- */
+
 @media (min-width: 800px) {
   .citat h2 {
     margin: 0;
@@ -49,6 +56,6 @@ a {
     line-height: 0.9;
     font-family: "Merriweather";
     text-align: center;
-    letter-spacing: -5px;
+    letter-spacing: -4px;
   }
 }
