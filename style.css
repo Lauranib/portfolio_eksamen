@@ -8,8 +8,6 @@
 body {
   background-color: #e1ded5;
   margin: 0rem;
-  font-family: "PT Sans Caption", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-  font-size: 2.8vh;
 }
 
 img {
@@ -21,6 +19,11 @@ img {
 }
 /* ---------------------------reset--------------------------- */
 
+p {
+  font-family: "IBM Plex Mono";
+  font-size: 2.2vh;
+}
+
 .menu a {
   font-family: "IBM Plex Mono";
   font-weight: 400;
@@ -29,6 +32,7 @@ img {
 a {
   font-family: "IBM Plex Mono";
   font-weight: 400;
+  font-size: 2.8vh;
 }
 
 .citat h2 {
@@ -44,6 +48,14 @@ a {
 .index_box {
   font-family: "Exo 2";
   font-weight: 800;
+  font-size: 3vh;
+}
+
+.index_tekst h4 {
+  font-family: "Exo 2";
+  font-weight: 800;
+  font-size: 3.2vh;
+  margin-top: 20px;
 }
 
 /* --------------------------computer------------------------- */
@@ -56,6 +68,14 @@ a {
     line-height: 0.9;
     font-family: "Merriweather";
     text-align: center;
+    letter-spacing: -4px;
+  }
+
+  .index_tekst h5 {
+    font-size: 8vh;
+    font-weight: 700;
+    line-height: 0.9;
+    font-family: "Merriweather";
     letter-spacing: -4px;
   }
 }
