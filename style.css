@@ -20,3 +20,35 @@ img {
   align-self: stretch;
 }
 /* ---------------------------reset--------------------------- */
+
+.menu a {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+}
+
+a {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+}
+
+.citat h2 {
+  margin: 0;
+  font-size: 5vh;
+  line-height: 0.9;
+  font-family: "Merriweather";
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -3px;
+}
+
+@media (min-width: 800px) {
+  .citat h2 {
+    margin: 0;
+    font-size: 8vh;
+    font-weight: 700;
+    line-height: 0.9;
+    font-family: "Merriweather";
+    text-align: center;
+    letter-spacing: -5px;
+  }
+}
