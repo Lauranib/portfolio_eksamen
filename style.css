@@ -21,7 +21,7 @@ img {
 
 p {
   font-family: "IBM Plex Mono";
-  font-size: 2.2vh;
+  font-size: 2.8vw;
 }
 
 .menu a {
@@ -34,6 +34,8 @@ a {
   font-weight: 400;
   font-size: 2.8vh;
 }
+
+/* INDEX */
 
 .citat h2 {
   margin: 0;
@@ -51,6 +53,10 @@ a {
   font-size: 3vh;
 }
 
+.index_box h3 {
+  color: #6d7865;
+}
+
 .index_tekst h4 {
   font-family: "Exo 2";
   font-weight: 800;
@@ -58,9 +64,60 @@ a {
   margin-top: 20px;
 }
 
+.index_tekst h5 {
+  font-size: 6vh;
+  font-weight: 700;
+  line-height: 0.9;
+  font-family: "Merriweather";
+  letter-spacing: -4px;
+}
+
+/* PORTFOLIO */
+
+/* ABOUT */
+.about_txt h1 {
+  margin: 0;
+  font-size: 8vh;
+  line-height: 0.9;
+  font-family: "Yesteryear";
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -3px;
+  color: #6d7865;
+}
+
+.about_txt h2 {
+  font-family: "Exo 2";
+  font-weight: 800;
+  font-size: 3vh;
+  color: #6d7865;
+}
+
+.grid_1-1_about2 h3 {
+  font-family: "Exo 2";
+  font-weight: 800;
+  font-size: 3vh;
+  color: #e1ded5;
+}
+
+.grid_1-1_about2 ul,
+a {
+  list-style: none;
+  font-family: "IBM Plex Mono";
+  font-weight: 800;
+  font-size: 2.2vh;
+  color: #e1ded5;
+  margin-top: 15px;
+}
+
 /* --------------------------computer------------------------- */
 
 @media (min-width: 800px) {
+  p {
+    font-family: "IBM Plex Mono";
+    font-size: 2.2vh;
+  }
+
   .citat h2 {
     margin: 0;
     font-size: 8vh;
@@ -77,5 +134,21 @@ a {
     line-height: 0.9;
     font-family: "Merriweather";
     letter-spacing: -4px;
+  }
+
+  /* ABOUT */
+  .about_txt h1 {
+    margin: 0;
+    font-size: 15vh;
+    line-height: 0.9;
+    font-family: "Yesteryear";
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -3px;
+  }
+
+  .about_txt p {
+    font-family: "IBM Plex Mono";
+    font-size: 1.3vw;
   }
 }
