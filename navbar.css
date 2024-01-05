@@ -9,6 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #191a18;
+  z-index: 10;
 
   /* align-items: baseline; */
 }

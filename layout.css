@@ -93,38 +93,63 @@
 }
 
 /* PORTFOLIO */
-.grid_1-1_port-1 {
-  background-color: #6c7a57;
-  border-radius: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 40px;
+.grid_1-5_port {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: #5d6e4c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.port_titel h1 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-right: 10px;
+}
+
+.port_txt h2 {
+  margin-bottom: 10px;
+}
+
+.port_txt {
+  /* margin-bottom: 20px; */
+  margin-right: 20px;
+}
+
+.port_img {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.port_button {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.grid_1-1_port-2 {
-  background-color: #b09f8c;
+.port_button2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #e1ded5;
+  text-decoration: none;
+  border: 0.1em solid #e1ded5;
   border-radius: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 40px;
-  margin-bottom: 20px;
 }
 
-.grid_1-1_port-3 {
-  background-color: #2d2f2a;
-  border-radius: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-.col_port {
-  padding: 20px;
-}
-
-.grid_1-1_port img {
+.port_button2:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #2d2f2a;
+  text-decoration: none;
+  border: 0.1em solid #2d2f2a;
   border-radius: 25px;
 }
 
@@ -236,34 +261,6 @@ input[type="submit"]:hover {
     height: 50vh;
   }
 
-  /* PORTFOLIO */
-  .grid_1-1_port-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 25vh;
-    margin-right: 25vh;
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
-
-  .grid_1-1_port-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 25vh;
-    margin-right: 25vh;
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
-
-  .grid_1-1_port-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 25vh;
-    margin-right: 25vh;
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
-
   .index_tekst {
     height: 65vh;
   }
@@ -274,6 +271,41 @@ input[type="submit"]:hover {
 
   .order {
     order: -1;
+  }
+
+  /* PORTFOLIO */
+
+  .grid_1-5_port {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #5d6e4c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .port_grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .port_titel h1 {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 20px;
+  }
+
+  .port_txt {
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+
+  .port_txt h2 {
+    margin-bottom: 10px;
+  }
+
+  .port_img {
+    margin-bottom: 50px;
+    margin-right: 70px;
   }
 
   /* ABOUT */

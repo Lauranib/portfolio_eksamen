@@ -73,6 +73,31 @@ a {
 }
 
 /* PORTFOLIO */
+.port_titel h1 {
+  margin: 0;
+  font-size: 15vh;
+  line-height: 0.9;
+  font-family: "Merriweather";
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 70px;
+  color: #e1ded5;
+}
+
+.port_txt h2 {
+  font-family: "Exo 2";
+  font-weight: 800;
+  font-size: 3vh;
+  color: #e1ded5;
+}
+
+.port_txt p {
+  color: #e1ded5;
+}
+
+.port_img img {
+  border-radius: 10px;
+}
 
 /* ABOUT */
 .about_txt h1 {
@@ -134,6 +159,19 @@ a {
     line-height: 0.9;
     font-family: "Merriweather";
     letter-spacing: -4px;
+  }
+
+  /* PORTFOLIO */
+  .port_titel h1 {
+    margin: 0;
+    font-size: 10rem;
+    line-height: 0.9;
+    font-family: "Merriweather";
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 70px;
+    color: #e1ded5;
+    margin-left: 10px;
   }
 
   /* ABOUT */
