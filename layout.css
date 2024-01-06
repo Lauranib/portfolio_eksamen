@@ -201,6 +201,34 @@
   margin-top: 30px;
 }
 
+.about_skole h4 {
+  margin-bottom: 10px;
+}
+
+.about_skills h4 {
+  margin-bottom: 10px;
+}
+
+.about_erfaring {
+  margin-top: 40px;
+  border-top: 2px solid #2d2f2a;
+  padding-top: 20px;
+}
+
+.about_profil {
+  margin-top: 40px;
+  border-top: 2px solid #2d2f2a;
+  border-bottom: 2px solid #2d2f2a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.about_icons {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* CONTACT */
 
 /* Style inputs with type="text", select elements and textareas */
@@ -409,6 +437,10 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
   }
 
+  .about_skills h4 {
+    margin-bottom: 10px;
+  }
+
   .about_erfaring {
     margin-top: 40px;
     border-top: 2px solid #2d2f2a;
@@ -418,13 +450,16 @@ input[type="submit"]:hover {
   .about_profil {
     margin-top: 40px;
     border-top: 2px solid #2d2f2a;
+    border-bottom: none;
     padding-top: 20px;
     margin-bottom: 50px;
   }
 
   .about_icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   /* CONTACT */
