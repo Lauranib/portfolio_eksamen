@@ -150,7 +150,14 @@ a {
 .grid_1-2_about h4 {
   font-family: "Exo 2";
   font-weight: 800;
-  font-size: 3vh;
+  font-size: 4.5vw;
+  color: #2d2f2a;
+}
+
+.grid_1-2_about h5 {
+  font-family: "Merriweather";
+  font-weight: 800;
+  font-size: 2.8vw;
   color: #7e7e7e;
 }
 
@@ -224,10 +231,13 @@ a {
   }
 
   .grid_1-2_about h4 {
-    font-family: "Exo 2";
     font-weight: 800;
     font-size: 3.5vh;
-    color: #7e7e7e;
+  }
+
+  .grid_1-2_about h5 {
+    font-weight: 800;
+    font-size: 2.5vh;
   }
 
   .about_txt p {
