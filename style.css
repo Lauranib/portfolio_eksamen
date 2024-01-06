@@ -85,6 +85,13 @@ a {
 }
 
 .port_txt h2 {
+  font-family: "Merriweather";
+  font-weight: 800;
+  font-size: 7vh;
+  color: #e1ded5;
+}
+
+.port_txt h3 {
   font-family: "Exo 2";
   font-weight: 800;
   font-size: 3vh;
@@ -165,6 +172,7 @@ a {
   .port_titel h1 {
     margin: 0;
     font-size: 10rem;
+    font-style: italic;
     line-height: 0.9;
     font-family: "Merriweather";
     font-weight: 700;
