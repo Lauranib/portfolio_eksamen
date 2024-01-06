@@ -22,6 +22,7 @@ img {
 p {
   font-family: "IBM Plex Mono";
   font-size: 2.8vw;
+  color: #2d2f2a;
 }
 
 .menu a {
@@ -72,6 +73,10 @@ a {
   letter-spacing: -4px;
 }
 
+.index_tekst p {
+  color: #e1ded5;
+}
+
 /* PORTFOLIO */
 .port_titel h1 {
   margin: 0;
@@ -81,7 +86,7 @@ a {
   font-weight: 700;
   text-align: center;
   letter-spacing: 70px;
-  color: #e1ded5;
+  color: #191a18;
 }
 
 .port_txt h2 {
@@ -122,13 +127,13 @@ a {
   font-family: "Exo 2";
   font-weight: 800;
   font-size: 3vh;
-  color: #6d7865;
+  color: #7e7e7e;
 }
 
 .grid_1-1_about2 h3 {
   font-family: "Exo 2";
   font-weight: 800;
-  font-size: 3vh;
+  font-size: 2.5vh;
   color: #e1ded5;
 }
 
@@ -140,6 +145,25 @@ a {
   font-size: 2.2vh;
   color: #e1ded5;
   margin-top: 15px;
+}
+
+.grid_1-2_about h4 {
+  font-family: "Exo 2";
+  font-weight: 800;
+  font-size: 3vh;
+  color: #7e7e7e;
+}
+
+#about_container1 {
+  width: 100%;
+  aspect-ratio: 574/317;
+}
+
+#about_sprite1 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/component.svg);
 }
 
 /* --------------------------computer------------------------- */
@@ -178,7 +202,6 @@ a {
     font-weight: 700;
     text-align: center;
     letter-spacing: 70px;
-    color: #e1ded5;
     margin-left: 10px;
   }
 
@@ -193,8 +216,34 @@ a {
     letter-spacing: -3px;
   }
 
+  .about_txt h2 {
+    font-family: "Exo 2";
+    font-weight: 800;
+    font-size: 3.5vh;
+    color: #7e7e7e;
+  }
+
+  .grid_1-2_about h4 {
+    font-family: "Exo 2";
+    font-weight: 800;
+    font-size: 3.5vh;
+    color: #7e7e7e;
+  }
+
   .about_txt p {
     font-family: "IBM Plex Mono";
     font-size: 1.3vw;
+  }
+
+  #about_container1 {
+    width: 100%;
+    aspect-ratio: 574/317;
+  }
+
+  #about_sprite1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(billeder/component.svg);
   }
 }
