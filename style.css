@@ -92,14 +92,14 @@ a {
 .port_txt h2 {
   font-family: "Merriweather";
   font-weight: 800;
-  font-size: 7vh;
+  font-size: 10vw;
   color: #e1ded5;
 }
 
 .port_txt h3 {
   font-family: "Exo 2";
-  font-weight: 800;
-  font-size: 3vh;
+  font-weight: 700;
+  font-size: 5vw;
   color: #e1ded5;
 }
 
@@ -212,6 +212,16 @@ a {
     text-align: center;
     letter-spacing: 70px;
     margin-left: 10px;
+  }
+
+  .port_txt h2 {
+    font-weight: 800;
+    font-size: 7vh;
+  }
+
+  .port_txt h3 {
+    font-weight: 700;
+    font-size: 3vh;
   }
 
   .tema_grid p {

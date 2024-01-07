@@ -135,6 +135,10 @@
   margin-bottom: 10px;
 }
 
+.port_txt h3 {
+  margin-bottom: 7px;
+}
+
 .port_txt {
   /* margin-bottom: 20px; */
   margin-right: 20px;
@@ -374,7 +378,7 @@
   }
 
   .port_img img {
-    height: 40vh;
+    height: 30vh;
   }
 
   .tema_titel {
