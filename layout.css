@@ -71,6 +71,7 @@
   color: #2d2f2a;
   background-color: rgba(45, 47, 42, 0.3);
   text-decoration: none;
+  transition: 0.3s;
   border: 0.1em solid #2d2f2a;
   border-radius: 25px;
 }
@@ -188,6 +189,37 @@
 
 .tema_titel h1 {
   margin-bottom: 20px;
+}
+
+.tema_button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tema_button2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #2d2f2a;
+  text-decoration: none;
+  border: 0.1em solid #2d2f2a;
+  border-radius: 25px;
+}
+
+.tema_button2:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #5d6e4c;
+  background-color: rgba(93, 110, 76, 0.2);
+  text-decoration: none;
+  border: 0.1em solid #5d6e4c;
+  border-radius: 25px;
+  transition: 0.2s;
 }
 
 /* ABOUT */
