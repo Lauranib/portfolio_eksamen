@@ -15,7 +15,7 @@
 }
 
 .citat h2 {
-  color: #6d7865;
+  color: #5d6e4c;
 }
 
 .index_box {
@@ -26,7 +26,7 @@
   padding-bottom: 10px;
   justify-content: center;
   align-items: center;
-  border: 0.1em solid #6d7865;
+  border: 0.1em solid #5d6e4c;
 }
 
 .grid_1-1-1 {
@@ -57,9 +57,21 @@
   padding-bottom: 5px;
   padding-left: 80px;
   padding-right: 80px;
-  color: #6d7865;
+  color: #5d6e4c;
   text-decoration: none;
-  border: 0.1em solid #6d7865;
+  border: 0.1em solid #5d6e4c;
+  border-radius: 25px;
+}
+
+.index_button:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #2d2f2a;
+  background-color: rgba(45, 47, 42, 0.3);
+  text-decoration: none;
+  border: 0.1em solid #2d2f2a;
   border-radius: 25px;
 }
 
@@ -80,6 +92,17 @@
   color: #e1ded5;
   text-decoration: none;
   border: 0.1em solid #e1ded5;
+  border-radius: 25px;
+}
+
+.about_button2:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #5d6e4c;
+  text-decoration: none;
+  border: 0.1em solid #5d6e4c;
   border-radius: 25px;
 }
 
@@ -120,6 +143,10 @@
   margin-top: 20px;
   margin-bottom: 50px;
   margin-right: 20px;
+}
+
+.port_img img {
+  height: 40vw;
 }
 
 .port_button {
@@ -182,19 +209,6 @@
   margin-bottom: 15px;
 }
 
-.grid_1-1_about2 {
-  background-color: #5d6e4c;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px;
-  justify-content: center;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-}
-
 .grid_1-2_about {
   margin-left: 50px;
   margin-right: 50px;
@@ -209,7 +223,10 @@
   margin-bottom: 10px;
 }
 
-.about_erfaring {
+.about_erfaring,
+.about_socials,
+.about_hobby,
+.about_sprog {
   margin-top: 40px;
   border-top: 2px solid #2d2f2a;
   padding-top: 20px;
@@ -257,7 +274,7 @@ input[type="submit"] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
-  background-color: #6c7a57;
+  background-color: #5d6e4c;
 }
 
 /* Add a background color and some padding around the form */
@@ -330,7 +347,7 @@ input[type="submit"]:hover {
 
   .port_grid {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   .port_titel h1 {
@@ -351,6 +368,10 @@ input[type="submit"]:hover {
   .port_img {
     margin-bottom: 50px;
     margin-right: 70px;
+  }
+
+  .port_img img {
+    height: 40vh;
   }
 
   /* ABOUT */
@@ -384,27 +405,6 @@ input[type="submit"]:hover {
     padding-bottom: 0;
   }
 
-  .grid_1-1_about2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: none;
-    /* margin-left: 100px;
-    margin-right: 100px; */
-    margin-top: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .about_socials,
-  .about_hobby,
-  .about_sprog,
-  .about_kompetencer {
-    display: grid;
-    justify-content: center;
-  }
-
   .grid_1-1-1-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -418,19 +418,21 @@ input[type="submit"]:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 40px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .about_skills {
     border-left: 2px solid #2d2f2a;
-    padding-left: 50px;
+    /* padding-left: 50px; */
   }
 
-  .about_skole h4,
-  h5,
-  p {
-    padding-left: 20px;
+  .grid_1-2_about h4,
+  .grid_1-2_about h5,
+  .grid_1-2_about p,
+  .grid_1-2_about ul {
+    padding-left: 30px;
   }
 
   .about_skole h4 {
@@ -441,7 +443,10 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
   }
 
-  .about_erfaring {
+  .about_erfaring,
+  .about_socials,
+  .about_hobby,
+  .about_sprog {
     margin-top: 40px;
     border-top: 2px solid #2d2f2a;
     padding-top: 20px;

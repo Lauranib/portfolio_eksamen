@@ -55,7 +55,7 @@ a {
 }
 
 .index_box h3 {
-  color: #6d7865;
+  color: #5d6e4c;
 }
 
 .index_tekst h4 {
@@ -120,31 +120,19 @@ a {
   font-weight: 700;
   text-align: center;
   letter-spacing: -3px;
-  color: #6d7865;
+  color: #5d6e4c;
 }
 
 .about_txt h2 {
   font-family: "Exo 2";
   font-weight: 800;
   font-size: 6vw;
-  color: #7e7e7e;
+  color: #2d2f2a;
 }
 
-.grid_1-1_about2 h3 {
-  font-family: "Exo 2";
-  font-weight: 800;
-  font-size: 4.5vw;
-  color: #e1ded5;
-}
-
-.grid_1-1_about2 ul,
-a {
-  list-style: none;
+.about_txt p {
   font-family: "IBM Plex Mono";
-  font-weight: 800;
-  font-size: 3.2vw;
-  color: #e1ded5;
-  margin-top: 15px;
+  font-size: 3vw;
 }
 
 .grid_1-2_about h4 {
@@ -157,8 +145,15 @@ a {
 .grid_1-2_about h5 {
   font-family: "Merriweather";
   font-weight: 800;
-  font-size: 2.8vw;
+  font-size: 3.4vw;
   color: #7e7e7e;
+}
+
+.grid_1-2_about ul {
+  list-style: none;
+  font-family: "IBM Plex Mono";
+  font-size: 3vw;
+  color: #2d2f2a;
 }
 
 #about_container1 {
@@ -178,7 +173,7 @@ a {
 @media (min-width: 800px) {
   p {
     font-family: "IBM Plex Mono";
-    font-size: 2.2vh;
+    font-size: 2.4vh;
   }
 
   .citat h2 {
@@ -227,21 +222,6 @@ a {
     font-family: "Exo 2";
     font-weight: 800;
     font-size: 3.5vh;
-    color: #7e7e7e;
-    padding-left: 20px;
-  }
-
-  .grid_1-1_about2 h3 {
-    font-weight: 800;
-    font-size: 2.5vh;
-  }
-
-  .grid_1-1_about2 ul,
-  a {
-    list-style: none;
-    font-weight: 800;
-    font-size: 2.2vh;
-    margin-top: 15px;
   }
 
   .grid_1-2_about h4 {
@@ -254,14 +234,22 @@ a {
     font-size: 2.5vh;
   }
 
+  .grid_1-2_about ul {
+    list-style: none;
+    font-family: "IBM Plex Mono";
+    font-size: 2.4vh;
+    padding-left: 20px;
+  }
+
   .about_txt p {
     font-family: "IBM Plex Mono";
-    font-size: 1.3vw;
+    font-size: 2.4vh;
   }
 
   #about_container1 {
-    width: 100%;
+    width: 80%;
     aspect-ratio: 574/317;
+    padding-left: 10px;
   }
 
   #about_sprite1 {
