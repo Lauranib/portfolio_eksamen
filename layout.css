@@ -180,14 +180,23 @@
   border-radius: 25px;
 }
 
+.tema_titel {
+  margin: 65px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.tema_titel h1 {
+  margin-bottom: 20px;
+}
+
 /* ABOUT */
 .about_txt {
   display: grid;
   margin-top: 10px;
   margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-
+  margin-left: 30px;
+  margin-right: 30px;
   padding-bottom: 10px;
   justify-content: center;
   align-items: center;
@@ -372,6 +381,30 @@ input[type="submit"]:hover {
 
   .port_img img {
     height: 40vh;
+  }
+
+  .tema_titel {
+    margin: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .tema_titel h1 {
+    margin-bottom: 20px;
+  }
+
+  .tema_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 50px;
+    gap: 35px;
+  }
+
+  .tema_grid img {
+    /* height: 50%; */
+    border-radius: 10px;
   }
 
   /* ABOUT */

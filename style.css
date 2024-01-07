@@ -111,6 +111,13 @@ a {
   border-radius: 10px;
 }
 
+.tema_titel h1 {
+  font-family: "Merriweather";
+  font-weight: 800;
+  font-size: 7vh;
+  color: #191a18;
+}
+
 /* ABOUT */
 .about_txt h1 {
   margin: 0;
@@ -205,6 +212,10 @@ a {
     text-align: center;
     letter-spacing: 70px;
     margin-left: 10px;
+  }
+
+  .tema_grid p {
+    margin-bottom: 20px;
   }
 
   /* ABOUT */
