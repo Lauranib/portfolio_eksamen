@@ -224,8 +224,8 @@
 .tema_button2 {
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
   color: #2d2f2a;
   text-decoration: none;
   border: 0.1em solid #2d2f2a;
@@ -233,6 +233,36 @@
 }
 
 .tema_button2:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #5d6e4c;
+  background-color: rgba(93, 110, 76, 0.2);
+  text-decoration: none;
+  border: 0.1em solid #5d6e4c;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+
+.tema_button3 {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.tema_button4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #2d2f2a;
+  text-decoration: none;
+  border: 0.1em solid #2d2f2a;
+  border-radius: 25px;
+}
+
+.tema_button4:hover {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 80px;
@@ -284,6 +314,14 @@
 }
 
 .about_skills h4 {
+  margin-bottom: 10px;
+}
+
+.about_skole p {
+  margin-bottom: 10px;
+}
+
+.about_hobby p {
   margin-bottom: 10px;
 }
 
@@ -406,6 +444,67 @@
     height: 30vh;
   }
 
+  .tema_button {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tema_button2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #2d2f2a;
+    text-decoration: none;
+    border: 0.1em solid #2d2f2a;
+    border-radius: 25px;
+  }
+
+  .tema_button2:hover {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #5d6e4c;
+    background-color: rgba(93, 110, 76, 0.2);
+    text-decoration: none;
+    border: 0.1em solid #5d6e4c;
+    border-radius: 25px;
+    transition: 0.2s;
+  }
+
+  .tema_button3 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .tema_button4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #2d2f2a;
+    text-decoration: none;
+    border: 0.1em solid #2d2f2a;
+    border-radius: 25px;
+  }
+
+  .tema_button4:hover {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #5d6e4c;
+    background-color: rgba(93, 110, 76, 0.2);
+    text-decoration: none;
+    border: 0.1em solid #5d6e4c;
+    border-radius: 25px;
+    transition: 0.2s;
+  }
+
   .tema_titel {
     margin: 65px;
     margin-left: 100px;
@@ -427,7 +526,7 @@
 
   .tema_grid img {
     margin-bottom: 0;
-    border-radius: 0;
+    border-radius: 10px;
   }
 
   .tema_tekst {
@@ -495,7 +594,12 @@
     padding-left: 30px;
   }
 
-  .about_skole h4 {
+  .about_skole h4,
+  .about_skole p {
+    margin-bottom: 10px;
+  }
+
+  .about_hobby p {
     margin-bottom: 10px;
   }
 
