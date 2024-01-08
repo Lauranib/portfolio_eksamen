@@ -83,6 +83,17 @@ nav {
   display: none;
 }
 
+footer p {
+  font-family: "Exo 2";
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.port_footer {
+  background-color: #5d6e4c;
+}
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;

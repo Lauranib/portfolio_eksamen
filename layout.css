@@ -131,6 +131,11 @@
   margin-right: 10px;
 }
 
+.port_grid {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .port_txt h2 {
   margin-bottom: 10px;
 }
@@ -141,7 +146,7 @@
 
 .port_txt {
   /* margin-bottom: 20px; */
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .port_img {
@@ -277,6 +282,10 @@
   padding-top: 20px;
 }
 
+.about_sprog {
+  margin-bottom: 50px;
+}
+
 .about_profil {
   margin-top: 40px;
   border-top: 2px solid #2d2f2a;
@@ -355,6 +364,9 @@
   .port_grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
+
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .port_titel h1 {
@@ -483,6 +495,10 @@
     padding-top: 20px;
   }
 
+  .about_sprog {
+    margin-bottom: 0;
+  }
+
   .about_profil {
     margin-top: 40px;
     border-top: 2px solid #2d2f2a;
@@ -496,12 +512,6 @@
     justify-content: space-between;
     padding-right: 20px;
     padding-left: 20px;
-  }
-
-  /* CONTACT */
-  .grid_1-1_contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 }
 
